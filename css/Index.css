@@ -1,7 +1,7 @@
 /* ---- FUENTES ---- */
 @font-face {
-    font-family: 'BostonAngel';
-    src: url('/fonts/BostonAngelRegular.ttf') format('truetype');
+    font-family: 'Calistoga';
+    src: url('/fonts/CalistogaRegular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
@@ -18,6 +18,25 @@
     font-weight: bold;
 }
 
-*{
-    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%);
+/* --- TEXTOS ---*/
+
+h1{
+
 }
+
+h2{
+
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
