@@ -26,7 +26,6 @@ body {
     display: flex;
     width: 1440px;
     height: 815px;
-    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%);
 }
 
 button {
@@ -56,6 +55,5 @@ button:hover {
 
 a {
     text-decoration: none;
-    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%); 
     font-family: GlacialReg,'Times New Roman', Times, serif;
 }
