@@ -1,0 +1,19 @@
+/* ---- FUENTES ---- */
+@font-face {
+    font-family: 'BostonAngel';
+    src: url('/fonts/BostonAngelRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+@font-face {
+    font-family: 'GlacialReg';
+    src: url('/fonts/GlacialIndifference-Regular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'GlacialBold';
+    src: url('/fonts/GlacialIndifference-Bold.otf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
