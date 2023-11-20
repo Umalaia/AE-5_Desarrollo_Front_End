@@ -1,0 +1,61 @@
+/* ---- FUENTES ---- */
+@font-face {
+    font-family: 'BostonAngel';
+    src: url('/fonts/BostonAngelRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+@font-face {
+    font-family: 'GlacialReg';
+    src: url('/fonts/GlacialIndifference-Regular.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'GlacialBold';
+    src: url('/fonts/GlacialIndifference-Bold.otf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* ---- ESTILOS ----*/
+
+body {
+    background-image: url("../img/ENCONSTRUCCION.png");
+    display: flex;
+    width: 1440px;
+    height: 815px;
+    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%);
+}
+
+button {
+    margin-left: 7%;
+    margin-top: 31%;
+    font-size: 20px;
+    border-radius: 32px;
+    background: var(--contrasteamarillofuerte, #F0AC1F);
+    /* SOMBRAS/BOTON SIN CLICK */
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    display: flex;
+    width: 325px;
+    height: 35px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+button:hover {
+    border-radius: 32px;
+    background: var(--contrasteamarillomedio, #F7DF97);
+    /* SOMBRAS/BOTON SIN CLICK */
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+a {
+    text-decoration: none;
+    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%); 
+    font-family: GlacialReg,'Times New Roman', Times, serif;
+}

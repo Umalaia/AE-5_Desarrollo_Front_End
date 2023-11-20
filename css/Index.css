@@ -17,3 +17,7 @@
     font-style: normal;
     font-weight: bold;
 }
+
+*{
+    color: linear-gradient(90deg, #495B8C 0%, #718CD9 100%);
+}
