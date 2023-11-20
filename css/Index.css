@@ -4,13 +4,15 @@
     src: url('/fonts/CalistogaRegular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-  }
+}
+
 @font-face {
     font-family: 'GlacialReg';
     src: url('/fonts/GlacialIndifference-Regular.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'GlacialBold';
     src: url('/fonts/GlacialIndifference-Bold.otf') format('truetype');
@@ -18,25 +20,76 @@
     font-weight: bold;
 }
 
+
 /* --- TEXTOS ---*/
 
-h1{
+h1 {
+    color: var(--marcaazuloscuro, #4E609C);
+    text-align: center;
+    font-family: Calistoga, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: var(--marcaazulmuyoscuro, #3F4557);
+    text-align: center;
+    font-family: GlacialBold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: var(--baseblanco, #FFF);
+    font-family: GlacialBold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: var(--marcaazuloscuro, #4E609C);
+    text-align: center;
+    font-family: GlacialReg, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+a {
+    color: var(--feedbackinformation, #9BCBE7);
+    font-family: GlacialReg, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    font-family: GlacialReg, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ---- ETIQUETAS ---- */
+footer{
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
 
 }
 
-h2{
 
-}
+/* ---- ID ---- */
 
-h3{
 
-}
-
-p{
-
-}
-
-a{
-
-}
-
+/* ---- IMAGENES ---- */
