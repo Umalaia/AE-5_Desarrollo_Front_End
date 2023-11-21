@@ -297,24 +297,31 @@ footer > section{
 /* ---- MEDIA QUERYS ---- */
 
 /* TABLET */
-@media screen and (max-width:992px) {}
-header {
-    gap: 5%;
-}
-
-footer > section{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#ofrecemos {
-    padding: 0px 56px 0px 56px;
+@media screen and (max-width:992px) {
+    header {
+        gap: 5%;
+    }
+    
+    footer > section{
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 50px;
+    }
+    
+    #ofrecemos {
+        padding: 0px 56px 0px 56px;
+    }
+    
 }
 
 
 /* MOBILE */
 @media screen and (max-width:575px) {
-
+    footer > section{
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 15px;
+    }
 
 
 }
