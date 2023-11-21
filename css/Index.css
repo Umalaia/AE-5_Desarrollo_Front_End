@@ -125,7 +125,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-area: main;
 }
 
 button {
