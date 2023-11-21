@@ -28,29 +28,22 @@
 
 /* ---- CLASES ---- */
 .container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
-    grid-template:
-        "header" 143px "main" auto "footer" 143px
 }
 
-.header {
-    grid-area: header;
-    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: center;
-}
 
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    grid-area: main;
+    
 }
 
 .footer {
-    grid-area: footer;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +55,7 @@
     height: 483px;
     display: inline-flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
     border-radius: 8px;
@@ -137,13 +131,15 @@ section p{
 
 /* ---- HEADER ---- */
 header {
-    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
-    position: absolute;
+    display: flex;
+    justify-content: center;
     width: 99%;
     height: 143px;
     gap: 22%;
     padding-right: 5%;
     padding-left: 5%;
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
 }
 
 
@@ -178,6 +174,7 @@ button a {
 nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 45px;
 }
 
@@ -249,9 +246,10 @@ footer>section {
 
 
 /* ---- ID ---- */
+
 #cabecera {
-    width: 1353.5px;
-    height: 600px;
+    width: 95%;
+    margin-left: 2.5%;
     box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
 
 }
