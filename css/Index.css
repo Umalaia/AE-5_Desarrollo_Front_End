@@ -200,6 +200,7 @@ nav a {
 footer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
 }
@@ -311,12 +312,37 @@ footer>section {
 /* TABLET */
 @media screen and (max-width:992px) {
     header {
+        display: flex;
+        flex-wrap: wrap;
         gap: 5%;
+        height: auto;
     }
     
     footer > section{
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        gap: 3%;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    nav > button{
+        width: 17%;
+        margin-right: 1%;
+    }
+    
+    nav > button > a{
+        font-size: 14px;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
     }
     
     #ofrecemos {
@@ -328,7 +354,6 @@ footer>section {
         margin-right: 3%;
     }
 
-
     #imgplataforma {
         height: 430px;
         width: 95%;
@@ -338,10 +363,7 @@ footer>section {
         height: 430px;
         width: 95%;
     }
-
-    
 }
-
 
 
 /* MOBILE */
@@ -361,6 +383,5 @@ footer>section {
         height: 270px;
         width: 95%;
     }
-
 
 }
