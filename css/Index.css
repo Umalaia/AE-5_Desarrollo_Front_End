@@ -305,10 +305,16 @@ header {
 footer > section{
     margin-left: 5%;
     margin-right: 5%;
-    gap: 50px;
+}
+
+#ofrecemos {
+    padding: 0px 56px 0px 56px;
 }
 
 
-
 /* MOBILE */
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+
+
+
+}
