@@ -313,21 +313,21 @@ footer>section {
     header {
         gap: 5%;
     }
-
-    footer>section {
+    
+    footer > section{
         margin-left: 5%;
         margin-right: 5%;
     }
-
+    
+    #ofrecemos {
+        padding: 0px 56px 0px 56px;
+    }
 
     #plataforma{
         margin-left: 3%;
         margin-right: 3%;
     }
 
-    #ofrecemos {
-        padding: 0px 56px 0px 56px;
-    }
 
     #imgplataforma {
         height: 430px;
@@ -339,10 +339,18 @@ footer>section {
         width: 95%;
     }
 
+    
 }
+
+
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+    footer > section{
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 15px;
+    }
 
     #imgplataforma {
         height: 270px;
@@ -353,9 +361,6 @@ footer>section {
         height: 270px;
         width: 95%;
     }
-
-
-
 
 
 }

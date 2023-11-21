@@ -42,9 +42,6 @@
     
 }
 
-.footer {  
-    
-}
 
 
 .tarjeta {
@@ -214,6 +211,7 @@ article>button:hover {
 footer {
     background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
 }
@@ -299,10 +297,12 @@ footer>section {
 
 /* TABLET */
 @media screen and (max-width:992px) {
+    /* ---- HEADER ---- */
+    /* ---- FOOTER ---- */
     footer>section {
         margin-left: 5%;
         margin-right: 5%;
-        gap: 50px;
+        gap: 5%;
     }
 
 }
@@ -310,9 +310,32 @@ footer>section {
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+    /* ---- HEADER ---- */
+    /* ---- FOOTER ---- */
     footer>section {
         margin-left: 5%;
         margin-right: 5%;
-        gap: 15px;
+        gap: 5%;
+    }
+    footer>section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    footer p {
+        text-align:start;
+    }
+    #copy{
+        text-align: center;
+    }
+    .footIzquierda p, h3{
+        text-align: left;
+    }
+    .footDerecha p{
+        text-align: right;
+    }
+    #footDerechaH3{
+        text-align: right;
     }
 }
