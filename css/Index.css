@@ -37,6 +37,8 @@
 .header {
     grid-area: header;
     box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
 }
 
 .main {
@@ -49,6 +51,9 @@
 
 .footer {
     grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icon {
@@ -127,9 +132,9 @@ header {
     position: absolute;
     width: 99%;
     height: 143px;
-    display: flex;
-    justify-content: center;
-    gap: 576px
+    gap: 22%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 
@@ -142,7 +147,7 @@ button {
     padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 80px;
     flex-shrink: 0;
     border-radius: 8px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
@@ -168,12 +173,14 @@ div > button:hover {
 /* ---- NAV ---- */
 nav {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     margin-top: 45px;
-    margin-right: 40px;
 }
 
 nav>button {
+    display: flex;
+    width: auto;
+    justify-content: center;
     margin-right: 16px;
     padding: 16px;
     border-radius: 8px;
@@ -227,7 +234,7 @@ footer p {
 footer > section{
     display: flex;
     justify-content: center;
-    gap: 310px;
+    gap: 150px;
     margin-bottom: 16px;
 }
 
@@ -236,10 +243,10 @@ footer > section{
 /* ---- ID ---- */
 #ofrecemos {
     display: flex;
+    flex-direction: column;
     width: 1360px;
     height: 290px;
     padding: 0px 105px 0px 128px;
-    flex-direction: column;
     gap: 22px;
     flex-shrink: 0;
     margin-bottom: 80px;
@@ -270,15 +277,15 @@ footer > section{
     width: 115px;
     height: 120px;
     margin-top: 8px;
-    margin-right: 8px;
-    margin-left: 50px;
 }
 
 #clinica {
-    width: 1440px;
     height: 647px;
     box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    width: auto;
 }
 
 #imgplataforma {
@@ -293,8 +300,8 @@ footer > section{
 /* ---- MEDIA QUERYS ---- */
 
 /* TABLET */
-@media screen and (min-width:576px) {}
+@media screen and (max-width:992px) {}
 
 
-/* DESKTOP */
-@media screen and (min-width:993px) {}
+/* MOBILE */
+@media screen and (max-width:575px) {}
