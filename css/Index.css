@@ -28,33 +28,11 @@
 
 /* ---- CLASES ---- */
 .container {
-    display: grid;
-    gap: 30px;
-    grid-template:
-        "header"143px "main"auto "footer"143px
-}
-
-.header {
-    grid-area: header;
-    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    justify-content: center;
-}
-
-.main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: main;
+    gap: 40px;
 }
 
-.footer {
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .icon {
     margin-top: 8px;
@@ -128,17 +106,28 @@ p {
 
 /* ---- HEADER ---- */
 header {
-    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 22%;
     width: 99%;
     height: 143px;
-    gap: 22%;
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
     padding-right: 5%;
     padding-left: 5%;
 }
 
 
 /* ---- MAIN ---- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: main;
+}
+
 button {
     margin-top: 8px;
     display: flex;
@@ -209,6 +198,9 @@ nav a {
 
 /* ---- FOOTER ---- */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
 }
 
@@ -254,8 +246,8 @@ footer > section{
 
 #tarjetas {
     display: flex;
-    height: 227px;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 48px;
     flex-shrink: 0;
 }
@@ -285,7 +277,8 @@ footer > section{
     margin-bottom: 88px;
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 #imgplataforma {
@@ -294,6 +287,8 @@ footer > section{
     box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 
@@ -301,6 +296,16 @@ footer > section{
 
 /* TABLET */
 @media screen and (max-width:992px) {}
+header {
+    gap: 5%;
+}
+
+footer > section{
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 50px;
+}
+
 
 
 /* MOBILE */
