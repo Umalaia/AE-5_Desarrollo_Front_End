@@ -21,8 +21,60 @@
 }
 
 
-/* --- TEXTOS ---*/
+* {
+    box-sizing: border-box;
+}
 
+
+/* ---- CLASES ---- */
+.container {
+    display: grid;
+    gap: 30px;
+    grid-template:
+        "header"143px "main"auto "footer"143px
+}
+
+.header {
+    grid-area: header;
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.icon {
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 184px;
+    height: 197px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
+    box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25), 8px 6px 10px 0px rgba(0, 0, 0, 0.35), 8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset;
+}
+
+
+/* --- ETIQUETAS ---*/
+
+/* ----FUENTES---- */
 h1 {
     color: var(--marcaazuloscuro, #4E609C);
     text-align: center;
@@ -31,6 +83,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -41,6 +94,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -50,6 +104,8 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 p {
@@ -60,10 +116,96 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
-a {
+/* ---- HEADER ---- */
+header {
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
+    position: absolute;
+    width: 99%;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    gap: 576px
+}
+
+
+/* ---- MAIN ---- */
+button {
+    margin-top: 8px;
+    display: flex;
+    width: 148px;
+    height: 24px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--contrasteamarillofuerte, #F0AC1F);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.250);
+}
+
+button a {
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: GlacialBold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+div > button:hover {
+    background: var(--contrasteamarillomedio, #F7DF97);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+
+/* ---- NAV ---- */
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-right: 40px;
+}
+
+nav>button {
+    margin-right: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid var(--GRADIENTE, #495B8C);
+    background: var(--marcaazulclaro, #BBC9F0);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+nav> button > a:hover {
+    color : var(--contrasteamarillofuerte, #F0AC1F); 
+}
+
+nav> button > a:active {
+    color : white; 
+}
+
+nav > button:active{
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.30) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ---- FOOTER ---- */
+footer {
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
+}
+
+footer a {
     color: var(--feedbackinformation, #9BCBE7);
     font-family: GlacialReg, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -72,8 +214,8 @@ a {
     line-height: normal;
 }
 
-footer p{
-    color:white;
+footer p {
+    color: white;
     text-align: center;
     font-family: GlacialReg, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -82,14 +224,77 @@ footer p{
     line-height: normal;
 }
 
-/* ---- ETIQUETAS ---- */
-footer{
-    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
-
+footer > section{
+    display: flex;
+    justify-content: center;
+    gap: 310px;
+    margin-bottom: 16px;
 }
 
 
+
 /* ---- ID ---- */
+#ofrecemos {
+    display: flex;
+    width: 1360px;
+    height: 290px;
+    padding: 0px 105px 0px 128px;
+    flex-direction: column;
+    gap: 22px;
+    flex-shrink: 0;
+    margin-bottom: 80px;
+}
+
+#tarjetas {
+    display: flex;
+    height: 227px;
+    align-items: flex-start;
+    gap: 48px;
+    flex-shrink: 0;
+}
+
+#plataforma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
 
 
 /* ---- IMAGENES ---- */
+#logo {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 300px;
+    box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 115px;
+    height: 120px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 50px;
+}
+
+#clinica {
+    width: 1440px;
+    height: 647px;
+    box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 88px;
+}
+
+#imgplataforma {
+    width: 1130px;
+    height: 617px;
+    box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* ---- MEDIA QUERYS ---- */
+
+/* TABLET */
+@media screen and (min-width:576px) {}
+
+
+/* DESKTOP */
+@media screen and (min-width:993px) {}
