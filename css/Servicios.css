@@ -253,6 +253,12 @@ box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 color: var(--marcaazulmuyoscuro, #3F4557); 
 }
 
+#acceder:hover {
+    border-radius: 32px;
+    background: var(--contrasteamarillomedio, #F7DF97);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
 #cabecera {
     width: 95%;
     margin-left: 2.5%;
