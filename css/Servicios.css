@@ -42,11 +42,8 @@
     
 }
 
-.footer {
+.footer {  
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 
@@ -135,7 +132,7 @@ header {
     justify-content: center;
     width: 99%;
     height: 143px;
-    gap: 22%;
+    gap: 1%;
     padding-right: 5%;
     padding-left: 5%;
     box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
@@ -216,6 +213,9 @@ article>button:hover {
 /* ---- FOOTER ---- */
 footer {
     background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer a {
@@ -293,13 +293,18 @@ footer>section {
     height: 120px;
     margin-top: 8px;
     margin-right: 8px;
-    margin-left: 50px;
 }
 
 /* ---- MEDIA QUERYS ---- */
 
 /* TABLET */
-@media screen and (max-width:992px) {}
+@media screen and (max-width:992px) {
+    footer>section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
 
 
 /* MOBILE */
