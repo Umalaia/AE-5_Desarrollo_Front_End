@@ -83,7 +83,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin:0%
+    margin:0%;
 }
 
 p {
@@ -266,19 +266,18 @@ footer>section {
 /*---- TARJETAS COLABORADORES ---- */
 .contenColaboradores {
     width: 50%;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 
 
 .tarjeta {
-    width: 123px;
-    height: 129px;
+    height: 165px;
     display: flex;
-   
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -291,19 +290,20 @@ footer>section {
 }
 
 .colab {
-    display: flex;
-    flex-direction: row;
-    width: 99px;
-    height: 62px;
+    width: 80%;
+    height: 50px;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 5%;
     border-radius: 9px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 1px 8px 0px #495B8C;
-
 }
 
-
+.tarjeta p{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
 
 
 
@@ -345,24 +345,6 @@ footer>section {
         height: 100px;
     }
 
-    #ofrecemos {
-        padding: 0px 56px 0px 56px;
-    }
-
-    #plataforma {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-
-    #imgplataforma {
-        height: 430px;
-        width: 95%;
-    }
-
-    #clinica {
-        height: 430px;
-        width: 95%;
-    }
 }
 
 
@@ -387,20 +369,5 @@ footer>section {
         width: 30%;
     }
 
-    #imgplataforma {
-        height: 210px;
-        width: 95%;
-    }
-
-    #clinica {
-        height: 250px;
-        width: 95%;
-        margin-bottom: 10%;
-    }
-
-    #plataforma>p {
-        margin-left: 6%;
-        margin-right: 6%;
-    }
 
 }
