@@ -265,21 +265,20 @@ footer>section {
 
 /*---- TARJETAS COLABORADORES ---- */
 .contenColaboradores {
-    width: 1130px;
-    height: 286px;
-}
-
-.colaboradores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-
-}
-
-.tarjeta {
+    width: 50%;
+    
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.tarjeta {
+    width: 123px;
+    height: 129px;
+    display: flex;
+   
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -293,7 +292,7 @@ footer>section {
 
 .colab {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 99px;
     height: 62px;
     margin-left: 1%;
