@@ -32,7 +32,6 @@ button {
     font-size: 20px;
     border-radius: 32px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
-    /* SOMBRAS/BOTON SIN CLICK */
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
     display: flex;
     width: 325px;
@@ -44,10 +43,14 @@ button {
     flex-shrink: 0;
 }
 
+button a{
+    color: var(--marcaazulmuyoscuro, #3F4557); 
+    font-family: GlacialBold,'Times New Roman', Times, serif;
+}
+
 button:hover {
     border-radius: 32px;
     background: var(--contrasteamarillomedio, #F7DF97);
-    /* SOMBRAS/BOTON SIN CLICK */
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
