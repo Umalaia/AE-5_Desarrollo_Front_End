@@ -256,6 +256,8 @@ footer>section {
 
 
 /*---- CARRUSEL ---- */
+
+
 .imagenPrincipal {
     display: flex;
     overflow-y: auto;
