@@ -317,26 +317,26 @@ footer>section {
         gap: 5%;
         height: auto;
     }
-    
-    footer > section{
+
+    footer>section {
         margin-left: 8%;
         margin-right: 8%;
         gap: 3%;
     }
 
-    nav{
+    nav {
         width: 100%;
         display: flex;
         margin-top: 1%;
         margin-bottom: 2%;
     }
 
-    nav > button{
+    nav>button {
         width: 17%;
         margin-right: 1%;
     }
-    
-    nav > button > a{
+
+    nav>button>a {
         font-size: 14px;
     }
 
@@ -344,12 +344,12 @@ footer>section {
         width: 100px;
         height: 100px;
     }
-    
+
     #ofrecemos {
         padding: 0px 56px 0px 56px;
     }
 
-    #plataforma{
+    #plataforma {
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -368,20 +368,51 @@ footer>section {
 
 /* MOBILE */
 @media screen and (max-width:575px) {
-    footer > section{
+    header {
+        display: flex;
+        justify-content: space-around;
+        gap: 22%;
+    }
+
+    nav {
+        width: 15%;
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    nav>button {
+        width: 80%;
+    }
+
+    nav>button>a {
+        font-size: 16px;
+    }
+
+    footer>section {
         margin-left: 5%;
         margin-right: 5%;
         gap: 15px;
     }
 
+    h1 {
+        margin-top: 0%;
+    }
+
     #imgplataforma {
-        height: 270px;
+        height: 210px;
         width: 95%;
     }
 
     #clinica {
-        height: 270px;
+        height: 250px;
         width: 95%;
+        margin-bottom: 10%;
+    }
+
+    #plataforma>p {
+        margin-left: 6%;
+        margin-right: 6%;
     }
 
 }
