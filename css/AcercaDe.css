@@ -187,6 +187,7 @@ nav>button:active {
 nav a {
     text-decoration: none;
     list-style: none;
+    color: var(--marcaazulmuyoscuro, #3F4557); 
 }
 
 
@@ -228,6 +229,12 @@ footer>section {
 
 
 /* ---- ID ---- */
+#acceder{
+    border-radius: 32px;
+background: var(--contrasteamarillofuerte, #F0AC1F);
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+color: var(--marcaazulmuyoscuro, #3F4557); 
+}
 
 #paginaActual {
     border-radius: 8px;
