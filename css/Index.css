@@ -153,7 +153,7 @@ button a {
     text-decoration: none;
 }
 
-div > button:hover {
+div>button:hover {
     background: var(--contrasteamarillomedio, #F7DF97);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
@@ -178,16 +178,16 @@ nav>button {
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
-nav> button > a:hover {
-    color : var(--contrasteamarillofuerte, #F0AC1F); 
+nav>button>a:hover {
+    color: var(--contrasteamarillofuerte, #F0AC1F);
 }
 
-nav> button > a:active {
-    color : white; 
+nav>button>a:active {
+    color: white;
 }
 
-nav > button:active{
-    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.30) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+nav>button:active {
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.30) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 nav a {
@@ -223,7 +223,7 @@ footer p {
     line-height: normal;
 }
 
-footer > section{
+footer>section {
     display: flex;
     justify-content: center;
     gap: 150px;
@@ -261,6 +261,19 @@ footer > section{
     gap: 16px;
 }
 
+#paginaActual {
+    border-radius: 8px;
+    border: 2px solid var(--GRADIENTE, #495B8C);
+    background: var(--marcaazulclaro, #BBC9F0);
+
+    /* SOMBRAS/BOTON CON CLICK */
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.30) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#paginaActual a {
+    color: #FFF
+}
+
 
 /* ---- IMAGENES ---- */
 #logo {
@@ -284,7 +297,6 @@ footer > section{
 }
 
 #imgplataforma {
-    width: 1130px;
     height: 617px;
     box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
     margin-top: 40px;
@@ -297,23 +309,52 @@ footer > section{
 /* ---- MEDIA QUERYS ---- */
 
 /* TABLET */
-@media screen and (max-width:992px) {}
-header {
-    gap: 5%;
-}
+@media screen and (max-width:992px) {
+    header {
+        gap: 5%;
+    }
 
-footer > section{
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    footer>section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
-#ofrecemos {
-    padding: 0px 56px 0px 56px;
-}
 
+    #plataforma{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #ofrecemos {
+        padding: 0px 56px 0px 56px;
+    }
+
+    #imgplataforma {
+        height: 430px;
+        width: 95%;
+    }
+
+    #clinica {
+        height: 430px;
+        width: 95%;
+    }
+
+}
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+
+    #imgplataforma {
+        height: 270px;
+        width: 95%;
+    }
+
+    #clinica {
+        height: 270px;
+        width: 95%;
+    }
+
+
 
 
 
