@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    
+
 }
 
 
@@ -120,7 +120,7 @@ p {
     margin-top: 0px;
 }
 
-section p{
+section p {
     text-align: left;
 }
 
@@ -254,7 +254,7 @@ footer>section {
 }
 
 #textoIntro {
-   margin-left: 15%;
+    margin-left: 15%;
     margin-right: 15%;
 }
 
@@ -277,7 +277,7 @@ footer>section {
     box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.30) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-#paginaActual a{
+#paginaActual a {
     color: #FFF
 }
 
@@ -340,43 +340,32 @@ footer>section {
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+
     /* ---- HEADER ---- */
-   nav{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    nav > button{
-        width: 30%;
-    }
-
-    #logo {
-        width: 100px;
-        height: 100px;
-    }
-    /* ---- MAIN ---- */
-    .tarjeta {
-        width: 95%;
-    }
     /* ---- FOOTER ---- */
     footer>section {
         margin-left: 5%;
         margin-right: 5%;
         gap: 5%;
     }
+
     footer>section {
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px;
         flex-wrap: wrap;
     }
+
     footer p {
-        text-align:start;
+        text-align: start;
     }
-    #copy{
+
+    #copy {
         text-align: center;
     }
-    .footIzquierda p, h3{
+
+    .footIzquierda p,
+    h3 {
         text-align: left;
         font-size: 14px;
     }
@@ -385,7 +374,9 @@ footer>section {
         text-align: right;
         
     }
-    #footDerechaH3{
+
+
+    #footDerechaH3 {
         text-align: right;
     }
 
