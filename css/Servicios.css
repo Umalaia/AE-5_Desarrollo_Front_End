@@ -127,13 +127,13 @@ section p{
 header {
     display: flex;
     justify-content: center;
+    gap: 22%;
     width: 99%;
     height: 143px;
-    gap: 1%;
+    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
     padding-right: 5%;
     padding-left: 5%;
-    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
-    background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
 }
 
 
@@ -168,7 +168,6 @@ button a {
 nav {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 45px;
 }
 
@@ -298,11 +297,40 @@ footer>section {
 /* TABLET */
 @media screen and (max-width:992px) {
     /* ---- HEADER ---- */
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    nav>button {
+        width: 17%;
+        margin-right: 1%;
+    }
+
+    nav>button>a {
+        font-size: 14px;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+
     /* ---- FOOTER ---- */
     footer>section {
         margin-left: 5%;
         margin-right: 5%;
-        gap: 5%;
+        gap: 3%;
+        
     }
 
 }
@@ -311,6 +339,23 @@ footer>section {
 /* MOBILE */
 @media screen and (max-width:575px) {
     /* ---- HEADER ---- */
+   nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav > button{
+        width: 30%;
+    }
+
+    #logo {
+        width: 100px;
+        height: 100px;
+    }
+    /* ---- MAIN ---- */
+    .tarjeta {
+        width: 95%;
+    }
     /* ---- FOOTER ---- */
     footer>section {
         margin-left: 5%;
