@@ -23,9 +23,7 @@
 
 body {
     background-image: url("../img/ENCONSTRUCCION.png");
-    display: flex;
-    width: 1440px;
-    height: 815px;
+    background-size: cover;
 }
 
 button {
@@ -55,8 +53,5 @@ button:hover {
 
 a {
     text-decoration: none;
-    font-family: GlacialReg,'Times New Roman', Times, serif;
-    
+    font-family: GlacialReg,'Times New Roman', Times, serif; 
 }
-
-
