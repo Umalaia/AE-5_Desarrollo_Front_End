@@ -181,6 +181,106 @@ nav a {
     list-style: none;
 }
 
+/*---- CARRUSEL ---- */
+.carrusel{
+    width: 1359px;
+    height: 610px;
+    margin: 40.5px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    /* SOMBRAS/IMG RECTANGULAR */
+    box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
+    
+    
+   
+}
+.imagenPrincipal img{
+    width: 100%;
+    object-fit: cover;
+    height: 900px;
+    display:block;
+    
+   
+   
+}
+.imagenPrincipal{
+    display: flex;
+    overflow-y: auto;
+}
+
+/*---- TARJETAS COLABORADORES ---- */
+.contenedorColab{
+    width: 1130px;
+    height: 286px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.tituColab{
+    width: 440px;
+    height: 36px;
+    color: var(--marcaazuloscuro, #4E609C);
+    text-align: center;
+    font-family: Calistoga;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.colaboradores{
+    margin-top: 24px;
+    width: 838px;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    right: 113px;
+    top:34px;   
+}
+#tarjeta{
+    width: 123px;
+    height: 129px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
+
+/* SOMBRAS/TARJETAS */
+box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25),
+            8px 6px 10px 0px rgba(0, 0, 0, 0.35), 
+            8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset; 
+}
+#colab1{
+    width: 99px;
+    height: 62px;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    border-radius: 9px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    box-shadow: 0px 1px 8px 0px #495B8C;
+}
+
+h4{
+    width: 110.053px;
+    height: 42.312px;
+    flex-shrink: 0; 
+    color: var(--marcaazuloscuro, #4E609C);
+    text-align: center;
+    font-family: Glacial Indifference;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    
+}
+
+
+
+
+
+
 
 /* ---- FOOTER ---- */
 footer {
