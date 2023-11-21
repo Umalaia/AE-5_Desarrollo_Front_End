@@ -236,8 +236,7 @@ footer > section{
 #ofrecemos {
     display: flex;
     flex-direction: column;
-    width: 1360px;
-    height: 290px;
+    width: 99%;
     padding: 0px 105px 0px 128px;
     gap: 22px;
     flex-shrink: 0;
@@ -248,6 +247,9 @@ footer > section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 48px;
     flex-shrink: 0;
 }
