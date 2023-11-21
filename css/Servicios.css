@@ -68,6 +68,8 @@
 .textTarjeta {
     width: 361px;
     height: 138px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* --- ETIQUETAS ---*/
@@ -376,11 +378,20 @@ footer>section {
     }
     .footIzquierda p, h3{
         text-align: left;
+        font-size: 14px;
     }
+    
     .footDerecha p{
         text-align: right;
+        
     }
     #footDerechaH3{
         text-align: right;
     }
+
+    .enlaceFooter{
+        font-size: 13px;
+    }
+
+
 }
