@@ -28,11 +28,46 @@
 
 /* ---- CLASES ---- */
 .container {
+    margin-top: 5%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     gap: 40px;
+     
+}
+.tarjetas {
+    width: 328px; 
+    height: 468px; 
+    background: rgba(187, 201, 240, 0.30);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px; 
 }
 
+
+
+.trastornosblond{
+   font-weight: bold;
+}
+
+.prevencion h2{
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: Calistoga, 'Times New Roman', Times, serif;   
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.prevencion p{
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: Glacial Indifference;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 /* --- ETIQUETAS ---*/
@@ -82,6 +117,23 @@ p {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+p.trastornos{
+    text-align: left;
+}
+
+ul{
+    
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: Glacial Indifference;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+
+}
+
 
 
 /* ---- HEADER ---- */
@@ -251,6 +303,10 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     height: 120px;
     margin-top: 8px;
 }
+#tcaimg{
+    width: 325px;
+    height: 234px;
+}
 
 
 /* ---- MEDIA QUERYS ---- */
@@ -300,7 +356,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
 
     /* ---- HEADER ---- */
     h1 {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     nav {
