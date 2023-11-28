@@ -28,14 +28,174 @@
 
 /* ---- CLASES ---- */
 .container {
+    margin-top: 5%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     gap: 40px;
+     
+}
+.tarjetas {
+    width: 328px; 
+    height: 468px; 
+    background: rgba(187, 201, 240, 0.30);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px; 
 }
 
 
 
+.trastornosblond{
+   font-weight: bold;
+}
+
+.prevencion h2{
+color: var(--marcaazuloscuro, #4E609C);
+font-family: Calistoga, 'Times New Roman', Times, serif;   
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.prevencion p{
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: Glacial Indifference;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.noticias{
+    color: var(--baseblanco);
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    gap: 56px;
+    margin-bottom: 5%;
+    border-style: dashed;
+    
+}
+.bloqueTarjetas{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 24px;
+width: 80%;
+}
+.new{
+width: 9.5rem;
+height: 11.1875rem;
+flex-shrink: 0;
+border-radius: 8px;
+background-color: var(--baseazulclarito, #BBC9F04D);
+
+/* SOMBRAS/TARJETAS */
+box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25), 8px 6px 10px 0px rgba(0, 0, 0, 0.35), 8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset;
+}
+
+.apoyo{
+width: 246px;
+height: 45px;
+flex-shrink: 0;
+border: 1px solid var(--GRADIENTE, #495B8C);
+/* SOMBRAS/CAJA DE TEXTO */
+box-shadow: 1px 1px 1px 0px #495B8C;
+}
+
+
 /* --- ETIQUETAS ---*/
+#botonNoticia{
+display: flex;
+width: 325px;
+height: 35px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 32px;
+background: var(--contrasteamarillofuerte, #F0AC1F);
+
+
+/* SOMBRAS/BOTON SIN CLICK */
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+
+color: var(--marcaazulmuyoscuro, #3F4557);
+font-family: Glacial Indifference;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#contenidoNoticia{
+    background-color: var(--baseazulclarito,rgba(187, 201, 240, 0.30));
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+#bloqueNoticia{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+gap: 40px;
+background-color: var(--baseblanco,#F9F9F9);
+width: 80%;
+height: 70%;
+padding-bottom: 10px;
+margin: 10%;
+
+}
+#bloqueNoticia h2{
+color: var(--marcaazuloscuro, #4E609C);
+font-family: Calistoga, 'Times New Roman', Times, serif;   
+text-align: center;
+ font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+#familiares{
+display: flex;
+width: 20%;
+height: 100%;
+flex-direction: column;
+align-items: center;
+background-color: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
+gap: 30px;
+
+
+}
+
+#familiares h2{
+margin-top: 50px;
+color: var(--marcaazuloscuro, #4E609C);
+text-align: center;
+font-family: Glacial Indifference;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#informate{
+border-radius: 8px;
+background: var(--contrasteamarillofuerte, #F0AC1F);
+/* SOMBRAS/BOTON SIN CLICK */
+box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+width: 145px;
+height: 35px;
+padding: 8px;
+}
 
 /* ----FUENTES---- */
 h1 {
@@ -82,6 +242,23 @@ p {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+p.trastornos{
+    text-align: left;
+}
+
+ul{
+    
+    color: var(--marcaazuloscuro, #4E609C);
+    font-family: Glacial Indifference;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+
+}
+
 
 
 /* ---- HEADER ---- */
@@ -251,6 +428,10 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     height: 120px;
     margin-top: 8px;
 }
+#tcaimg{
+    width: 325px;
+    height: 234px;
+}
 
 
 /* ---- MEDIA QUERYS ---- */
@@ -300,7 +481,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
 
     /* ---- HEADER ---- */
     h1 {
-        margin-top: 0%;
+        margin-top: 5%;
     }
 
     nav {

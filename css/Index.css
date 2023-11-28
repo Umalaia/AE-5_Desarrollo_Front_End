@@ -320,6 +320,10 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     width: 95%;
     margin-left: 2.5%;
 }
+#tcaimg{
+    width: 325px;
+    height: 234px;
+}
 
 
 /* ---- MEDIA QUERYS ---- */
