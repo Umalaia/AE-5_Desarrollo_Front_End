@@ -67,6 +67,7 @@ h1 {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -125,6 +126,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -277,6 +283,11 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     gap: 16px;
 }
 
+#plataforma p{
+    font-size: 20px;
+    line-height: 8px;
+}
+
 #paginaActual {
     border-radius: 8px;
     border: 2px solid var(--GRADIENTE, #495B8C);
@@ -303,13 +314,13 @@ color: var(--marcaazulmuyoscuro, #3F4557);
 }
 
 #clinica {
-    height: 647px;
+    height: 500px;
     box-shadow: 6px 6px 10px 0px rgba(255, 255, 255, 0.25) inset, 6px 6px 10px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 88px;
     display: flex;
     justify-content: center;
-    width: 95%;
-    margin-left: 2.5%;
+    align-items: center;
+    width: 100%;
 }
 
 #imgplataforma {
@@ -318,7 +329,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     margin-top: 40px;
     margin-bottom: 40px;
     width: 95%;
-    margin-left: 2.5%;
+
 }
 #tcaimg{
     width: 325px;
@@ -371,6 +382,11 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     #plataforma {
         margin-left: 3%;
         margin-right: 3%;
+    }
+
+    #plataforma p{
+        font-size: 20px;
+        line-height: 20px;
     }
 
     #imgplataforma {
