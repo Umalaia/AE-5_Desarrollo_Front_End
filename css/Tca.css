@@ -94,34 +94,112 @@
     margin-left: 2%;
     margin-right: 2%;
 }
+.tarjetanot{
+    width: 70%;
+    height: 40%;
+    padding-bottom: 1%;
+    padding-top: 3%;
 
+}
+
+.new button{
+    width: 80%;
+    height: 24px;
+
+    /* Texto button style*/
+    color: var(--marcaazulmuyoscuro, #3F4557);
+    font-family: GlacialBold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-style: none;
+
+}
+.new button:hover{
+    background: var(--contrasteamarillomedio, #F7DF97);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    border-style: none;
+
+}
+.new h4{
+margin-top: 0px;
+margin-bottom: 0%;
+color: var(--marcaazulmuyoscuro, #3F4557);
+text-align: center;
+font-family: Glacial Indifference;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.new p{
+    margin-top: 0%;
+    padding: 0%;
+    color: var(--marcaazuloscuro, #4E609C);
+text-align: center;
+font-family: Glacial Indifference;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
 .new {
-    width: 9.5rem;
-    height: 11.1875rem;
-    flex-shrink: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10.5rem;
+    height: 12.1875rem;
     border-radius: 8px;
     background-color: var(--baseazulclarito, #BBC9F04D);
-
+    padding-bottom: 0px;
+    padding-top: 0%;
     /* SOMBRAS/TARJETAS */
     box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25), 8px 6px 10px 0px rgba(0, 0, 0, 0.35), 8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset;
 }
 
 .apoyo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
     width: 80%;
     height: 45px;
-    flex-shrink: 0;
     border: 1px solid var(--GRADIENTE, #495B8C);
     /* SOMBRAS/CAJA DE TEXTO */
     box-shadow: 1px 1px 1px 0px #495B8C;
+    
+    
+}
+.apoyo p{
+    color: var(--marcaazulmuyoscuro, #3F4557);
+text-align: center;
+margin-top: 2%;
+margin-left: 2%;
+font-family: Glacial Indifference;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.infoImg{
+    width: 15%;
+    height: 100%;
+    margin-left: 3%;
 }
 
 
 /* --- ETIQUETAS ---*/
 #botonNoticia {
-    width: 80%;
+    width: 30%;
     height: 35px;
     gap: 8px;
     border-radius: 32px;
+    border-style: none;
     background: var(--contrasteamarillofuerte, #F0AC1F);
 
 
@@ -209,6 +287,7 @@ color: var(--marcaazuloscuro, #4E609C);
     border-radius: 32px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
     margin-bottom: 15%;
+    border-style: none;
 
     /* SOMBRAS/BOTON SIN CLICK */
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
@@ -223,20 +302,7 @@ color: var(--marcaazuloscuro, #4E609C);
     
 }
 #informate:hover {
-    width: 80%;
-    height: 35px;
-    gap: 8px;
-    border-radius: 32px;
-    margin-bottom: 15%;
-
-    color: var(--marcaazulmuyoscuro, #3F4557);
-    font-family: GlacialBold, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-    background: var(--contrasteamarillomedio, #F7DF97);
+      background: var(--contrasteamarillomedio, #F7DF97);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
@@ -488,6 +554,27 @@ footer>section {
 
 /* TABLET */
 @media screen and (max-width:992px) {
+    #botonNoticia{
+        width: 50%;
+    }
+    #contenidoNoticia{
+        width: 80%;
+    }
+    .new{
+        width: 280px;
+        height: 250px;
+        
+       
+     }
+     .new p{
+        font-size: 16px;
+     }
+    #familiares{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+
+
     header {
         display: flex;
         flex-wrap: wrap;
@@ -528,22 +615,38 @@ footer>section {
         align-items: center;
     }
 
-    #familiares{
-        width: 40%;
-        margin-bottom: 5%;
-    }
-
 
 }
 
 
 /* MOBILE */
 @media screen and (max-width:575px) {
-  
+ .new{
+    width: 60%;
+    height: 200px;
+    
+   
+ }
+ .new p{
+    font-size: 16px;
+ }
+ .tarjetanot{
+    height: 40%;
+    margin-top: 0%;
+    padding-top: 0%;
+ }
+
+ #botonNoticia{
+    width: 60%;
+ }
+    
+    #familiares{
+        width: 80%;
+    }
     
 
   #contenidoNoticia{
-    width:100%;
+    width:90%;
   }
     
     h1 {
