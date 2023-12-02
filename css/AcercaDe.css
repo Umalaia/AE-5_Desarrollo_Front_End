@@ -95,15 +95,14 @@
     
 }
 .Mapa2{
-    width: 44%;  /*44%*/
-    margin-left: 90px; /*90px*/
+    width: 44%;  
+    margin-left: 90px; 
     
 }
 .Mapa2 p{
-   
     display: flex;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 96px;
     color: var(--marcaazuloscuro, #4E609C);
     font-family: Glacial Indifference;
     font-size: 16px;
@@ -111,18 +110,25 @@
     font-weight: 700;
     line-height: normal;
     justify-content: flex-start;
+    
+    margin-right: 30%;
+    margin-bottom: 21px;
 }
 
 .iconoCont{
     width: 29px;
     height: 28px;
     margin-right: 40px; 
+    
 }
 
 .imgmapa{
     width: 90%;
     
 }
+
+
+
 
 /* --- ETIQUETAS ---*/
 
