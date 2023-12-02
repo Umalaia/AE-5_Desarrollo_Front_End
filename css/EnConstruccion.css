@@ -20,7 +20,6 @@
 
 
 /* ---- ESTILOS ----*/
-
 body {
     background-image: url("../img/ENCONSTRUCCION.png");
     background-size: cover;
@@ -30,7 +29,7 @@ button {
     margin-left: 7%;
     margin-top: 31%;
     font-size: 20px;
-    border-radius: 32px;
+    border-radius: 8px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
     display: flex;
@@ -49,7 +48,7 @@ button a{
 }
 
 button:hover {
-    border-radius: 32px;
+    border-radius: 8px;
     background: var(--contrasteamarillomedio, #F7DF97);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
