@@ -110,10 +110,10 @@
     font-weight: 700;
     line-height: normal;
     justify-content: flex-start;
-    
-    margin-right: 30%;
+    margin-right: 47%;
     margin-bottom: 21px;
 }
+
 
 .iconoCont{
     width: 29px;
@@ -438,7 +438,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         flex-wrap: wrap;
     }
     .Mapa2{
-        width: 75%;  /*45px*/
+        width: 75%;  
         margin-left: 112px
         
     }
@@ -515,6 +515,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         width: 95%;
         margin-bottom: 10%;
     }
+  
     .imgMapa{
         width: 90%;
         height: auto;
