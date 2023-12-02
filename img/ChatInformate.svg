@@ -1,0 +1,14 @@
+<svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Chat" clip-path="url(#clip0_748_688)">
+<path id="Vector" d="M27.625 1.75V8.75H10.1875V20.4941L4.375 25.7441V19.25H0.5V1.75H27.625ZM12.125 10.5H31.5V22.75H27.625V27.4941L22.3726 22.75H12.125V10.5Z" fill="url(#paint0_linear_748_688)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_748_688" x1="0.5" y1="14.738" x2="31.5" y2="14.738" gradientUnits="userSpaceOnUse">
+<stop stop-color="#495B8C"/>
+<stop offset="1" stop-color="#718CD9"/>
+</linearGradient>
+<clipPath id="clip0_748_688">
+<rect width="31" height="28" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
