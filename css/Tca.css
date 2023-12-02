@@ -38,18 +38,21 @@
 }
 
 .tarjetas {
-    width: 328px;
+    width: 400px;
     height: 468px;
     background: rgba(187, 201, 240, 0.30);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
     padding-bottom: 0px;
 }
 
-
+.tituloPagina{
+    font-size: 32px;
+}
 
 .trastornosblond {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .prevencion h2 {
@@ -345,7 +348,6 @@ h3 {
 
 p {
     color: var(--marcaazuloscuro, #4E609C);
-    text-align: center;
     font-family: GlacialReg, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
