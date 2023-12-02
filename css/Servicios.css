@@ -73,9 +73,9 @@
 
 .textTarjeta {
     width: 361px;
-    height: 138px;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* --- ETIQUETAS ---*/
@@ -149,20 +149,18 @@ header {
 button {
     margin-top: 8px;
     display: flex;
-    width: 148px;
-    height: 24px;
+    width: 270px;
+    height: 40px;
     padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 80px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.250);
 }
 
 button a {
-    color: var(--marcaazuloscuro, #4E609C);
+    color: var(--marcaazulmuyoscuro, #3F4557);
     font-family: GlacialBold, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -312,6 +310,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     margin-top: 8px;
     margin-right: 8px;
 }
+
 
 /* ---- MEDIA QUERYS ---- */
 
