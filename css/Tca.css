@@ -114,6 +114,7 @@
     font-weight: 700;
     line-height: normal;
     border-style: none;
+    
 
 }
 .new button:hover{
@@ -152,12 +153,13 @@ line-height: normal;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 10.5rem;
-    height: 12.1875rem;
+    width: 13.0rem;
+    height: 16.1875rem;
     border-radius: 8px;
     background-color: var(--baseazulclarito, #BBC9F04D);
     padding-bottom: 0px;
     padding-top: 0%;
+    margin-top: 0%;
     /* SOMBRAS/TARJETAS */
     box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25), 8px 6px 10px 0px rgba(0, 0, 0, 0.35), 8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset;
 }
@@ -167,7 +169,8 @@ line-height: normal;
     flex-direction: row;
     align-items: flex-start;
     gap: 8px;
-    width: 80%;
+    min-width: 88%;
+    max-width: fit-content;
     height: 45px;
     border: 1px solid var(--GRADIENTE, #495B8C);
     /* SOMBRAS/CAJA DE TEXTO */
@@ -201,6 +204,7 @@ line-height: normal;
     border-radius: 32px;
     border-style: none;
     background: var(--contrasteamarillofuerte, #F0AC1F);
+    margin-bottom: 10px;
 
 
     /* SOMBRAS/BOTON SIN CLICK */
@@ -216,12 +220,6 @@ line-height: normal;
 
 #botonNoticia:hover {
 color: var(--marcaazuloscuro, #4E609C);
-    font-family: GlacialBold, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
     background: var(--contrasteamarillomedio, #F7DF97);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
@@ -263,7 +261,7 @@ color: var(--marcaazuloscuro, #4E609C);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    min-width: 20%;
     height: 100%;
     background-color: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
     gap: 30px;
@@ -414,12 +412,13 @@ button {
 }
 
 
+
 button a {
-    color: var(--marcaazuloscuro, #4E609C);
+    color: var(--marcaazulmuyoscuro, #3F4557);
     font-family: GlacialBold, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-decoration: none;
 }
@@ -573,7 +572,9 @@ footer>section {
         width: 60%;
         margin-bottom: 5%;
     }
-
+    .tarjetanot{
+        height: 50%;
+    }
 
     header {
         display: flex;
@@ -631,7 +632,7 @@ footer>section {
     font-size: 16px;
  }
  .tarjetanot{
-    height: 40%;
+    height: 50%;
     margin-top: 0%;
     padding-top: 0%;
  }
