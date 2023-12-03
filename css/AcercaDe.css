@@ -530,30 +530,27 @@ footer>section {
         /* ---- IMAGENES ---- */
 
 
-        #espece {
-            height: 250px;
-            width: 95%;
-            margin-bottom: 10%;
-        }
-
-        .imgMapa {
-            width: 90%;
-            height: auto;
-        }
-
-        .Mapa2 {
-            width: 49%;
-            /*45px*/
-            /*margin-left: 60px; 100px*/
-
-        }
-
-        .Mapa2 p {
-            flex-direction: column;
-            justify-content: space-between;
-            margin-right: 6%;
-            padding-top: 20px;
-        }
+    #espece {
+        height: 250px;
+        width: 95%;
+        margin-bottom: 10%;
+    }
+  
+    .imgMapa{
+        width: 90%;
+        height: auto;
+    }
+    .Mapa2{
+        width: 49%;  /*45px*/
+        /*margin-left: 60px; 100px*/
+        
+    }
+    .Mapa2 p{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 6%;
+        padding-top: 20px;
+    }
 
     }
 }
