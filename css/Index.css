@@ -128,7 +128,7 @@ main {
     align-items: center;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
 }
@@ -180,7 +180,7 @@ nav>button {
     border-radius: 8px;
     border: 2px solid var(--GRADIENTE, #495B8C);
     background: var(--marcaazulclaro, #BBC9F0);
-    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50); 
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
 nav>button>a:hover {
@@ -198,7 +198,7 @@ nav>button:active {
 nav a {
     text-decoration: none;
     list-style: none;
-    color: var(--marcaazulmuyoscuro, #3F4557); 
+    color: var(--marcaazulmuyoscuro, #3F4557);
 }
 
 
@@ -241,11 +241,11 @@ footer>section {
 
 
 /* ---- ID ---- */
-#acceder{
+#acceder {
     border-radius: 8px;
-background: var(--contrasteamarillofuerte, #F0AC1F);
-box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
-color: var(--marcaazulmuyoscuro, #3F4557); 
+    background: var(--contrasteamarillofuerte, #F0AC1F);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    color: var(--marcaazulmuyoscuro, #3F4557);
 }
 
 #acceder:hover {
@@ -283,7 +283,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     gap: 16px;
 }
 
-#plataforma p{
+#plataforma p {
     font-size: 20px;
     line-height: 8px;
 }
@@ -331,7 +331,8 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     width: 95%;
 
 }
-#tcaimg{
+
+#tcaimg {
     width: 325px;
     height: 234px;
 }
@@ -384,7 +385,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         margin-right: 3%;
     }
 
-    #plataforma p{
+    #plataforma p {
         font-size: 20px;
         line-height: 20px;
     }
@@ -403,17 +404,18 @@ color: var(--marcaazulmuyoscuro, #3F4557);
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+
     /* ---- HEADER ---- */
     h1 {
         margin-top: 0%;
     }
 
-    nav{
+    nav {
         display: flex;
         flex-wrap: wrap;
     }
 
-    nav > button{
+    nav>button {
         width: 30%;
     }
 
@@ -429,6 +431,8 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         justify-content: space-between;
         margin-bottom: 16px;
         flex-wrap: wrap;
+        margin-left: 12%;
+        margin-right: 12%;
     }
 
     footer p {
@@ -449,7 +453,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         text-align: right;
     }
 
-    .enlacefooter{
+    .enlacefooter {
         font-size: 13px;
     }
 
