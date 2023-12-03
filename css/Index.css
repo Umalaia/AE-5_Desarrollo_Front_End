@@ -52,7 +52,14 @@
     border-radius: 16px;
     background: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
     box-shadow: 16px 14px 16px 4px rgba(0, 0, 0, 0.25), 8px 6px 10px 0px rgba(0, 0, 0, 0.35), 8px 8px 16px 4px rgba(255, 255, 255, 0.25) inset;
+    transition: transform 0.3s ease;
 }
+
+.tarjetas:hover {
+    transform: scale(1.05);
+}
+
+
 
 
 /* --- ETIQUETAS ---*/
