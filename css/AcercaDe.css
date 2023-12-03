@@ -55,7 +55,7 @@
 .preg {
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    
     gap: 32px;
     background: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
     margin-top: 56px;
@@ -474,7 +474,14 @@ footer>section {
         flex-direction: column;
         justify-content: space-between;
     }
-
+    .preg {
+        width: 90%;
+        margin: 1%;
+        margin-bottom: 40px;
+    }
+    .conteneCont{
+        margin-top:72px;
+    }
 
 
     /* MOBILE */
@@ -550,8 +557,8 @@ footer>section {
         height: auto;
     }
     .Mapa2{
-        width: 49%;  /*45px*/
-        /*margin-left: 60px; 100px*/
+        width: 49%;  
+       
         
     }
     .Mapa2 p{
