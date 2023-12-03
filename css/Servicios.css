@@ -149,11 +149,13 @@ header {
 button {
     margin-top: 8px;
     display: flex;
-    width: 270px;
-    height: 40px;
+    width: 148px;
+    height: 24px;
     padding: 8px;
     justify-content: center;
     align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
     border-radius: 8px;
     background: var(--contrasteamarillofuerte, #F0AC1F);
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.250);
@@ -181,13 +183,12 @@ nav>button {
     display: flex;
     width: auto;
     justify-content: center;
-    height: 24px;
     margin-right: 16px;
     padding: 16px;
     border-radius: 8px;
     border: 2px solid var(--GRADIENTE, #495B8C);
     background: var(--marcaazulclaro, #BBC9F0);
-    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50); 
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
 
 nav>button>a:hover {
@@ -309,9 +310,7 @@ footer>section {
     width: 115px;
     height: 120px;
     margin-top: 8px;
-    margin-right: 8px;
 }
-
 
 /* ---- MEDIA QUERYS ---- */
 
