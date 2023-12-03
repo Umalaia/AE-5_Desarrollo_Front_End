@@ -448,6 +448,7 @@ footer>section {
     nav>button>a {
         font-size: 14px;
     }
+    
 
     #logo {
         width: 100px;
@@ -461,11 +462,14 @@ footer>section {
         justify-content: center;
         padding-left: 6%;
         padding-right: 6%;
+        margin-bottom: 6%;
+        
     }
 
     #espece {
         height: 430px;
         width: 95%;
+        margin-bottom: 3%;
     }
 
     #tarjetas{
@@ -489,7 +493,8 @@ footer>section {
         margin-bottom: 40px;
     }
     .conteneCont{
-        margin-top:72px;
+        margin-top: 20px;
+        margin-bottom: 6%;
     }
 
 
