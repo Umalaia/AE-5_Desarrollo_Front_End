@@ -436,6 +436,7 @@ color: var(--marcaazulmuyoscuro, #3F4557);
     }
     .conteneCont{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     .Mapa2{
         width: 75%;  
@@ -521,15 +522,20 @@ color: var(--marcaazulmuyoscuro, #3F4557);
         height: auto;
     }
     .Mapa2{
-        width: 49%;  /*45px*/
-        /*margin-left: 60px; 100px*/
-        
+        width: 49%;    
     }
     .Mapa2 p{
         flex-direction: column;
         justify-content: space-between;
         margin-right: 6%;
         padding-top: 20px;
+    }
+    .conteneCont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+
     }
 
 }
