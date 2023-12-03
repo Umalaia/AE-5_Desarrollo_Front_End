@@ -55,7 +55,6 @@
 .preg {
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr));
     gap: 32px;
     background: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
     margin-top: 56px;
@@ -457,12 +456,22 @@ footer>section {
 
     #colaboradores {
         height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
     #espece {
         height: 430px;
         width: 95%;
     }
+
+    #tarjetas{
+        width: 100%;
+    }
+
 
 
     .Mapa2 {
