@@ -434,11 +434,9 @@ footer>section {
 #contenidoNoticia {
     background-color: var(--baseazulclarito, rgba(187, 201, 240, 0.30));
     width: 65%;
-    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10%;
 }
 
 #bloqueNoticia {
