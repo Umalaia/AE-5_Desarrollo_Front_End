@@ -560,7 +560,13 @@ footer>section {
 
 
 /* ---- MEDIA QUERYS ---- */
+/* BIG TABLET */
+@media screen and (max-width:1146px) {
+    #familiares{
+        width: 26%;
+    }
 
+}
 /* TABLET */
 @media screen and (max-width:992px) {
     #listprev {
@@ -589,7 +595,7 @@ footer>section {
 
     #familiares {
         margin-top: 0%;
-        width: 40%;
+        width: 300px;
         margin-bottom: 5%;
         height: 430px;
     }
@@ -644,12 +650,15 @@ footer>section {
 
 /* MOBILE */
 @media screen and (max-width:575px) {
+    
     .tarjetas{
         width: 90%;
+        height: 100%;
+        padding-bottom: 10%;
     }
     
     .new {
-        width: 60%;
+        width: 214px;
         height: 250px;
 
 
@@ -675,7 +684,7 @@ footer>section {
     }
 
     #familiares {
-        width: 60%;
+        width: 300px;
     }
 
 
