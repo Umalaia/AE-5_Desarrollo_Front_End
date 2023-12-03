@@ -109,7 +109,7 @@ p {
 header {
     display: flex;
     justify-content: center;
-    gap: 40%;
+    gap: 30%;
     width: 100%;
     height: 143px;
     background: var(--GRADIENTE, linear-gradient(90deg, #495B8C 0%, #718CD9 100%));
