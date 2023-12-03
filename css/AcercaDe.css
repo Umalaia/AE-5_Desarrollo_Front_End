@@ -53,7 +53,7 @@
 }
 
 .preg {
-    width: 64%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr));
     gap: 32px;
