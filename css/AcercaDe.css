@@ -596,11 +596,13 @@ footer>section {
 
 
     .imgmapa {
-        width: auto;
-        height: 200px;
+        width: 100%;
+        
+        
     }
 
     .iconoCont {
+        
         margin-right: 0px;
         height: 55px;
         width: 20px;
@@ -610,11 +612,36 @@ footer>section {
 
     .conteneCont p {
         font-size: 14px;
+        padding-right: 3%;
     }
 
     .pc {
         margin-bottom: 10%;
         text-align: left;
     }
+    .conteneCont{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .Mapa1 {
+        width: 100%;
+        float: left;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap:7%;
+        width: 11%;
+        margin-left: 16%;
+    }
+    
+    .cont_Mapa2 {
+        width: 59%;
+    }
+    
 
 }
