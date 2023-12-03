@@ -150,6 +150,7 @@
 
 .pc {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 
@@ -587,5 +588,33 @@ footer>section {
         align-items: center;
     }
 
-}
+    #espece {
+        height: 250px;
+        width: 95%;
+        margin-bottom: 10%;
+    }
+
+
+    .imgmapa {
+        width: auto;
+        height: 200px;
+    }
+
+    .iconoCont {
+        margin-right: 0px;
+        height: 55px;
+        width: 20px;
+        margin-bottom: -10px;
+        margin-top: 20%;
+    }
+
+    .conteneCont p {
+        font-size: 14px;
+    }
+
+    .pc {
+        margin-bottom: 10%;
+        text-align: left;
+    }
+
 }
