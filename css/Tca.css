@@ -74,6 +74,7 @@
     line-height: normal;
 }
 
+
 .noticias {
     color: var(--baseblanco);
     width: 50%;
@@ -557,6 +558,10 @@ color: var(--marcaazuloscuro, #4E609C);
 
 /* TABLET */
 @media screen and (max-width:992px) {
+    #listprev{
+        margin-right: 3%;
+        margin-left: 12%;
+    }
     #botonNoticia{
         width: 50%;
     }
@@ -573,7 +578,8 @@ color: var(--marcaazuloscuro, #4E609C);
         font-size: 16px;
      }
     #familiares{
-        width: 60%;
+        margin-top: 0%;
+        width: 40%;
         margin-bottom: 5%;
     }
     .tarjetanot{
@@ -628,10 +634,15 @@ color: var(--marcaazuloscuro, #4E609C);
 @media screen and (max-width:575px) {
  .new{
     width: 60%;
-    height: 200px;
-    
+    height: 250px;
+  
    
  }
+
+ #listprev{
+    margin-right: 10%;
+    margin-left: 8%;
+}
  .new p{
     font-size: 16px;
  }
@@ -646,7 +657,7 @@ color: var(--marcaazuloscuro, #4E609C);
  }
     
     #familiares{
-        width: 80%;
+        width: 60%;
     }
     
 
